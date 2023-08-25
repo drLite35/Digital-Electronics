@@ -1,7 +1,5 @@
 # Digisim Repository - Digital Design Lab Circuits
 
-![Digisim Logo](/path/to/logo.png) *(You can replace this with your own logo if desired)*
-
 Welcome to the Digisim repository! This repository is dedicated to housing your digital circuits designed as part of the Digital Design Lab. Here, you'll find various digital circuits, simulations, and related files that you create during your lab sessions.
 
 ## Table of Contents
@@ -42,50 +40,44 @@ Before you start using this repository, make sure you have the following:
 
 1. **Clone the Repository:** Open your terminal/command prompt and navigate to the directory where you want to store your circuits. Run the following command to clone the repository:
 
-   git clone https://github.com/your-username/digisim-repo.git
-Replace your-username with your GitHub username.
+2. **git clone** use standard technique to clone this repo
 
 
-Configure Simulation Software: Configure your chosen simulator to save project files within the repository's folder for easy versioning.
+3. **Configure Simulation Software** Configure your chosen simulator to save project files within the repository's folder for easy versioning.
 
 
-###Usage
+### Usage
 
 1. **Creating a New Circuit:**
 To create a new digital circuit in this repository:
 
-Launch your chosen digital circuit simulator.
-Create a new project or design.
-Save the project within the appropriate subfolder of this repository. You can create a new subfolder if needed.
-Simulating Circuits
-Open your digital circuit simulator.
-Open the desired circuit project from the repository's folder.
-Build and design your circuit within the simulator.
-Simulate the circuit to test its behavior and functionality.
-Viewing and Editing Circuits
-You can view and edit your circuits in your chosen digital circuit simulator. To track changes and collaborate:
+- Launch your chosen digital circuit simulator.
+- Create a new project or design.
+- Save the project within the appropriate subfolder of this repository. You can create a new subfolder if needed.
+- Simulating Circuits
+- Open your digital circuit simulator.
+- Open the desired circuit project from the repository's folder.
+- Build and design your circuit within the simulator.
+- Viewing and Editing Circuits
+- You can view and edit your circuits in your chosen digital circuit simulator. To track changes and collaborate:
+- Make your changes to the circuit design.
+- Save the project.
 
-Make your changes to the circuit design.
+2. **Use Git to track and manage your changes. Run the following commands in your terminal:**
 
-Save the project.
-
-Use Git to track and manage your changes. Run the following commands in your terminal:
-
-shell
-Copy code
 1. git add .
 2. git commit -m "Brief description of changes made"
 3. git push
 
-###Contributing
+### Contributing
 
-Contributions to this repository are welcome! If you want to contribute, follow these steps:
+1. Contributions to this repository are welcome! If you want to contribute, follow these steps:
 
-Fork the repository to your GitHub account.
-Create a new branch for your changes: git checkout -b feature/new-feature.
-Make your changes and commit them.
-Push the changes to your forked repository.
-Create a pull request explaining the changes you've made.
+- Fork the repository to your GitHub account.
+- Create a new branch for your changes: git checkout -b feature/new-feature.
+- Make your changes and commit them.
+- Push the changes to your forked repository.
+- Create a pull request explaining the changes you've made.
 
 
 
