@@ -1,6 +1,6 @@
 # Digisim Repository - Digital Design Lab Circuits
 
-Welcome to the Digisim repository! This repository is dedicated to housing your digital circuits designed as part of the Digital Design Lab. Here, you'll find various digital circuits, simulations, and related files that you create during your lab sessions.
+Welcome to the Digital Electronics repository! This repository is dedicated to housing your digital circuits designed as part of the Digital Design Lab. Here, you'll find various digital circuits, simulations, and related files that you create during your lab sessions.
 
 ## Table of Contents
 
@@ -24,7 +24,7 @@ Key features of this repository:
 
 - **Version Control:** Git version control is used to track changes in your circuit designs, enabling collaboration and easy experimentation.
 
-- **Simulation:** You can simulate your circuits using a digital circuit simulator of your choice (e.g., Logisim, Digital Works, etc.).
+- **Simulation:** You can simulate your circuits using a digital circuit simulator of your choice (e.g., Logisim, Digital Works,Verilog ,  etc.).
 
 ## Getting Started
 
