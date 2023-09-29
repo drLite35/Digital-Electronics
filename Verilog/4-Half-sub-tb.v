@@ -2,7 +2,7 @@ module half_sub_tb;
 reg a,b;
 wire d,bo;
 
-half_sub uut(
+half_beh uut(
     .a(a),
     .b(b),
     .d(d),

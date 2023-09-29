@@ -2,7 +2,7 @@ module full_sub_tb;
 reg a,b,bi;
 wire d,bo;
 
-full_sub uut(
+full_sbeh uut(
     .a(a),
     .b(b),
     .d(d),
