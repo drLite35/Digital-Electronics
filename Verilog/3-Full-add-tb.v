@@ -2,7 +2,7 @@ module full_add_tb;
   reg a, b, ci;
   wire s, co;
 
-  full_add uut (
+  full_beh uut (
     .s(s),
     .a(a),
     .b(b),
