@@ -10,16 +10,16 @@ always @(posedge clk) begin
     if (E) begin
         case (sr)
             2'b01 : begin
-                q = 0;
-                qb = 1;
+                q <= 0;
+                qb <= 1;
             end
             2'b10 : begin
-                q = 1;
-                qb = 0;
+                q <= 1;
+                qb <= 0;
             end
             2'b11 : begin
-                q = 1'bz;
-                qb = 1'bz; 
+                q <= 1'bz;
+                qb <= 1'bz; 
             end
         endcase
     end

@@ -10,12 +10,12 @@ always @(posedge clk)begin
     if(E)begin
         case(D)
         0 : begin
-            q=0;
-            qb=1;
+            q<=0;
+            qb<=1;
         end
         1 : begin
-            q=1;
-            qb=0;
+            q<=1;
+            qb<=0;
         end
         endcase
     end
