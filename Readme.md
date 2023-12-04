@@ -1,77 +1,166 @@
-# Digisim Repository - Digital Design Lab Circuits
+# Digital Electronics - Digital Design Logisim Verilog
 
-Welcome to the Digital Electronics repository! This repository is dedicated to housing your digital circuits designed as part of the Digital Design Lab. Here, you'll find various digital circuits, simulations, and related files that you create during your lab sessions.
-
-## Table of Contents
-
-- [Introduction](#introduction)
-- [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
-- [Usage](#usage)
-  - [Creating a New Circuit](#creating-a-new-circuit)
-  - [Simulating Circuits](#simulating-circuits)
-  - [Viewing and Editing Circuits](#viewing-and-editing-circuits)
-- [Contributing](#contributing)
-
-## Introduction
-
-In the Digital Design Lab, you will be working on various digital circuits to understand fundamental concepts of digital electronics and logic design. This repository is designed to help you organize, store, and share your circuit designs and simulations throughout the course.
-
-Key features of this repository:
-
-- **Structured Organization:** Circuits are organized into folders, making it easy to locate specific projects and associated files.
-
-- **Version Control:** Git version control is used to track changes in your circuit designs, enabling collaboration and easy experimentation.
-
-- **Simulation:** You can simulate your circuits using a digital circuit simulator of your choice (e.g., Logisim, Digital Works,Verilog ,  etc.).
-
-## Getting Started
-
-### Prerequisites
-
-Before you start using this repository, make sure you have the following:
-
-1. **Git:** Version control system software. Download and install from [https://git-scm.com/](https://git-scm.com/).
-
-2. **Digital Circuit Simulator:** Choose a simulator that you'll use to design and simulate your circuits (e.g., Logisim, Digital Works, etc.). Install the simulator on your computer.
-
-### Installation
-
-1. **Clone the Repository:** Open your terminal/command prompt and navigate to the directory where you want to store your circuits. Run the following command to clone the repository:
-
-2. **git clone** use standard technique to clone this repo
+Welcome to the Digital Electronics repository! This repository is dedicated to housing your digital circuits designed as part of the Digital Design Lab. Cicuits and Gates Implemented using Logisim and Verilog.
 
 
-3. **Configure Simulation Software** Configure your chosen simulator to save project files within the repository's folder for easy versioning.
+# Digital Logic Circuits with Logisim
+
+Collection of digital logic circuits implemented using Logisim. Kindly Download or fork in your System to see the circuits.
+
+## Circuits List
+
+1. **Introduction.circ**
+   - Logisim circuit introducing basic concepts.
+
+2. **Basic Gates.circ**
+   - Logisim circuit demonstrating fundamental logic gates.
+
+3. **Universal Gates.circ**
+   - Logisim circuit showcasing universal gates.
+
+4. **NAND Universal.circ**
+   - Logisim circuit implementing universal functionality using NAND gates.
+
+5. **NOR Universal.circ**
+   - Logisim circuit implementing universal functionality using NOR gates.
+
+6. **XOR.circ**
+   - Logisim circuit for XOR gate.
+
+7. **XNOR.circ**
+   - Logisim circuit for XNOR gate.
+
+8. **XNOR using Universal.circ**
+   - Logisim circuit implementing XNOR using universal gates.
+
+9. **XOR using Universal.circ**
+   - Logisim circuit implementing XOR using universal gates.
+
+10. **Half Adder.circ**
+    - Logisim circuit for a half adder.
+
+11. **Full Adder.circ**
+    - Logisim circuit for a full adder.
+
+12. **Four Bit Adder.circ**
+    - Logisim circuit for a four-bit adder.
 
 
-### Usage
+# Digital Logic Circuits using Verilog
 
-1. **Creating a New Circuit:**
-To create a new digital circuit in this repository:
+Collection of digital logic circuits implemented in Verilog. The circuits include various modules, testbenches, and simulation outputs.
 
-- Launch your chosen digital circuit simulator.
-- Create a new project or design.
-- Save the project within the appropriate subfolder of this repository. You can create a new subfolder if needed.
-- Simulating Circuits
-- Open your digital circuit simulator.
-- Open the desired circuit project from the repository's folder.
-- Build and design your circuit within the simulator.
-- Viewing and Editing Circuits
-- You can view and edit your circuits in your chosen digital circuit simulator. To track changes and collaborate:
-- Make your changes to the circuit design.
-- Save the project.
 
-2. **Use Git to track and manage your changes. Run the following commands in your terminal:**
+### Half Adder
 
-1. git add .
-2. git commit -m "Brief description of changes made"
-3. git push
+- **Module**: 2-Half-add.v
+- **Testbench**: 2-Half-add-tb.v
+- **Simulation Output**: 2-Half-add.vvp
+
+### Full Adder
+
+- **Module**: 3-Full-add.v
+- **Testbench**: 3-Full-add-tb.v
+- **Simulation Output**: 3-full-add.vvp
+
+### D Flip-Flop
+
+- **Module**: 10-D-Flipflop.v
+- **Testbench**: 10-D-Flipflop-tb.v
+- **Simulation Output**: 10-Dff.vvp
+
+### JK Flip-Flop
+
+- **Module**: 11-JK-Flipflop.v
+- **Testbench**: 11-JK-Flipflop-tb.v
+- **Simulation Output**: 11-JKff.vvp
+
+### T Flip-Flop
+
+- **Module**: 12-T-FlipFlop.v
+- **Testbench**: 12-T-FlipFlop-Tb.v
+- **Simulation Output**: 12-Tff.vvp
+
+### Mod10 Counter
+
+- **Module**: 13-Mod10-Counter.v
+- **Testbench**: 13-Mod10-Counter-tb.v
+
+### Mod3 Counter
+
+- **Module**: 13-Mod3-Counter.v
+- **Testbench**: 13-Mod3-Counter-tb.v
+
+### Upcounter
+
+- **Module**: 14-Upcounter.v
+- **Testbench**: 14-Upcounter-tb.v
+
+### Downcounter
+
+- **Module**: 15-DownCounter.v
+- **Testbench**: 15-DownCounter-tb.v
+
+### Half Subtractor
+
+- **Module**: 4-Half-sub.v
+- **Testbench**: 4-Half-sub-tb.v
+- **Simulation Output**: 4-half.vvp
+
+### Full Subtractor
+
+- **Module**: 5-Full-Sub.v
+- **Testbench**: 5-Full-sub-tb.v
+- **Simulation Output**: 5-full_sub.vvp
+
+## Logisim Circuits
+
+### SR Latch
+
+- **Circuit**: 6-SR-latch.circ
+- **Testbench**: 6-SR-latch-tb.v
+- **Simulation Output**: 6-SR-latch.vvp
+
+### D Latch
+
+- **Circuit**: 7-D-latch.circ
+- **Testbench**: 7-D-latch-tb.v
+- **Simulation Output**: 7-D-latch.vvp
+
+### SR Latch with If
+
+- **Module**: 8-SR-Latch-If.v
+- **Testbench**: 8-SR-Latch-if-tb.v
+
+### D Latch with If
+
+- **Module**: 9-D-Latch-if.v
+- **Testbench**: 9-D-Latch-if-Tb.v
+
+# Commands to Run Code
+
+Kindly Download the required Setup accoring to your Operating System Using Online tutrials available , some handy commands are provided here.
+
+## Compile Verilog files
+iverilog -o 2-Half-add.vvp 2-Half-add.v 2-Half-add-tb.v
+
+## Run simulation
+vvp 2-Half-add.vvp
+
+## Generate VCD file (optional)
+vcd 2-Half-add.vvp
+
+## View simulation waveform using GTKWave (optional)
+gtkwave 2-Half-add.vcd
+
+
+
+Feel free to explore and modify the circuits for educational purposes do practice more and more to get thorough!
+
 
 ### Contributing
 
-1. Contributions to this repository are welcome! If you want to contribute, follow these steps:
+Contributions to this repository are welcome! If you want to contribute, follow these steps:
 
 - Fork the repository to your GitHub account.
 - Create a new branch for your changes: git checkout -b feature/new-feature.
